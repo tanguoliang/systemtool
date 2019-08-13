@@ -1,11 +1,7 @@
 apply plugin: 'com.android.library'
-//添加这两行
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 28
-
 
     defaultConfig {
         minSdkVersion 22
